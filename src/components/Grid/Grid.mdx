@@ -1,0 +1,37 @@
+import { Canvas, Meta, Story } from '@storybook/blocks';
+import * as GridStories from './Grid.stories.tsx'
+
+<Meta of={GridStories} />
+
+# Grid
+
+The grid creates visual consistency between layouts while allowing flexibility across a wide variety of designs. Material Design's responsive UI is based on a 12-column grid layout.
+
+## How it works
+The grid system is implemented with the Grid component:
+
+- It uses CSS's Flexible Box module for high flexibility.
+- There are two types of layout: containers and items.
+- Item widths are set in percentages, so they're always fluid and sized relative to their parent element.
+- Items have padding to create the spacing between individual items.
+- There are five grid breakpoints: xs, sm, md, lg, and xl.
+- Integer values can be given to each breakpoint, indicating how many of the 12 available columns are occupied by the component when the viewport width satisfies the breakpoint constraints.
+
+If you are new to or unfamiliar with flexbox, we encourage you to read this CSS-Tricks flexbox guide.
+
+## Fluid grids
+Fluid grids use columns that scale and resize content. A fluid grid's layout can use breakpoints to determine if the layout needs to change dramatically.
+
+## Basic grid
+Column widths are integer values between 1 and 12; they apply at any breakpoint and indicate how many columns are occupied by the component.
+
+A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, `xs={12}` sizes a component to occupy the full width of its parent container, regardless of the viewport size.
+
+<Canvas of={GridStories.BasicGrid} />
+
+## Grid with multiple breakpoints
+Components may have multiple widths defined, causing the layout to change at the defined breakpoint. Width values given to larger breakpoints override those given to smaller breakpoints.
+
+For example, `xs={12} sm={6}` sizes a component to occupy half of the viewport width (6 columns) when viewport width is **600 or more pixels.** For smaller viewports, the component fills all 12 available columns.
+
+<Canvas of={GridStories.GridWithMultipleBreakpoints} />
