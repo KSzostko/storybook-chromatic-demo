@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Checkbox } from './Checkbox.tsx';
 
 const meta: Meta<typeof Checkbox> = {
-  title: 'Autodocs and MDX/Checkbox',
+  title: 'Part 2 - Autodocs and MDX/Checkbox',
   component: Checkbox,
   parameters: {
     layout: 'centered',

@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { TextField } from './TextField.tsx';
 
 const meta = {
-  title: 'Addons/Controls Addon/TextField',
+  title: 'Part 3 - Addons/Controls Addon/TextField',
   component: TextField,
   // We can use controls addon to dynamically change prop values on each story
   argTypes: {

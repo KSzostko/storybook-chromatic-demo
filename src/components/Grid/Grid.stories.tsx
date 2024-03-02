@@ -10,7 +10,7 @@ import { Item } from '../Item/Item.tsx';
  * This is where MDX can be useful - it allows you to write standard Markdown documentation and additionally embed components inside of it.
  */
 const meta: Meta<typeof Grid> = {
-  title: 'Autodocs and MDX/Grid',
+  title: 'Part 2 - Autodocs and MDX/Grid',
   component: Grid,
   parameters: {
     // custom docs config, just to show code by default for the canvas component

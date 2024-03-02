@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Button } from './Button.tsx';
 
 const meta: Meta<typeof Button> = {
-  title: 'Basics/Button',
+  title: 'Part 1 - Basics/Button',
   component: Button,
   /**
    * We can specify more details on how do we want to display our components

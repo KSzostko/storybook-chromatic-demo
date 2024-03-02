@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Slider } from './Slider.tsx';
 
 const meta = {
-  title: 'Addons/Action Addon/Slider',
+  title: 'Part 3 - Addons/Action Addon/Slider',
   component: Slider,
   // here you can define on which event you want to display log in the console
   argTypes: {
