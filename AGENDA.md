@@ -13,7 +13,6 @@
 - Actions
 - Controls
 - Viewport
-- Play function
 - `@storybook/addon-a11y` - accessibility tests
 - `msw-storybook-addon`
 
