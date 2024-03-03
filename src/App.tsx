@@ -2,11 +2,11 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { PhotosList } from './components/PhotosLIst/PhotosList.tsx';
 import './App.css';
 
-const client = new QueryClient;
+export const queryClient = new QueryClient;
 
 function App() {
   return (
-    <QueryClientProvider client={client}>
+    <QueryClientProvider client={queryClient}>
       <main>
         <PhotosList />
       </main>

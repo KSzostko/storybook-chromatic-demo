@@ -2,6 +2,8 @@ import { Card, CardContent, CardMedia, CircularProgress, Typography } from '@mui
 import Grid from '@mui/material/Unstable_Grid2';
 import { useQuery } from '@tanstack/react-query';
 
+export const apiUrl = 'https://jsonplaceholder.typicode.com/photos';
+
 export interface Photo {
   id: number;
   albumId: number;
@@ -12,7 +14,7 @@ export interface Photo {
 
 async function getPhotos() {
   try {
-    const resp = await fetch('https://jsonplaceholder.typicode.com/photos?_limit=10');
+    const resp = await fetch(`${apiUrl}?_limit=20`);
     return await resp.json() as Photo[];
   } catch (err) {
     console.error(err);
