@@ -25,6 +25,8 @@
 - Connecting with Figma (maybe if there will be time)
 
 ## Bonus/Possible ideas
+- Storybook v8 chromatic better integration
+- Chromatic Playwright integration
 - Storybook-driven development
 - Interaction tests inside storybook (maybe if there will be time, if not only mention this)
 - Storybook in e2e and integration test (maybe if there will be time, if not only mention this)
