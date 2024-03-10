@@ -40,7 +40,7 @@ export function PhotosList() {
   }
 
   return (
-    <Grid container spacing={4} maxWidth={1200} alignItems="stretch">
+    <Grid container spacing={10} maxWidth={1200} alignItems="stretch">
       {data.map(({ id, title, thumbnailUrl }) => (
         <Grid key={id} xs={4}>
           <Card sx={{ height: '100%' }}>
