@@ -22,9 +22,12 @@
 - Setup
 - Visual testing
 - Visual review through CI
-- Connecting with Figma (maybe if there will be time)
+- Visual review with interactions
+- Story modes
 
 ## Bonus/Possible ideas
-- Storybook v8 chromatic better integration
 - Chromatic Playwright integration
+- Chromatic TurboSnap
+- Chromatic connecting with Figma
+- Storybook v8 chromatic better integration
 - Storybook-driven development
