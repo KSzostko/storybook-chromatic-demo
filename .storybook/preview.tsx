@@ -17,7 +17,43 @@ const preview: Preview = {
     options: {
       storySort: {
         method: 'alphabetical',
-      }
+      },
+    },
+    viewport: {
+      viewports: {
+        mobile1: {
+          name: 'Small mobile',
+          styles: {
+            width: '320px',
+            height: '568px',
+          },
+          type: 'mobile',
+        },
+        mobile2: {
+          name: 'Large mobile',
+          styles: {
+            width: '414px',
+            height: '896px',
+          },
+          type: 'mobile',
+        },
+        tablet: {
+          name: 'Tablet',
+          styles: {
+            width: '834px',
+            height: '1112px',
+          },
+          type: 'tablet',
+        },
+        desktop: {
+          name: 'Desktop',
+          styles: {
+            width: '1080px',
+            height: '1920px',
+            type: 'desktop',
+          },
+        },
+      },
     }
   },
   decorators: [

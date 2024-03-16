@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { allModes } from '../../../.storybook/modes.ts';
 import { Grid } from './Grid.tsx';
 import { Item } from '../Item/Item.tsx';
 
@@ -17,9 +18,14 @@ const meta: Meta<typeof Grid> = {
     docs: {
       canvas: {
         sourceState: 'shown'
-      }
+      },
     },
-  }
+    chromatic: {
+      modes: {
+        desktop: allModes.desktop,
+      },
+    },
+  },
 };
 
 export default meta;
@@ -45,6 +51,13 @@ export const BasicGrid: Story = {
 };
 
 export const GridWithMultipleBreakpoints: Story = {
+  parameters: {
+    chromatic: {
+      modes: {
+        largeMobile: allModes.largeMobile,
+      },
+    },
+  },
   render: () => (
     <Grid container spacing={2}>
       <Grid item xs={6} md={8}>
