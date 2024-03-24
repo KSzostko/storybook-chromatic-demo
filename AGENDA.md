@@ -25,9 +25,9 @@
 - Visual review with interactions
 - Story modes
 
-## Bonus/Possible ideas
+## Bonus
 - Chromatic Playwright integration
 - Chromatic TurboSnap
 - Chromatic connecting with Figma
 - Storybook v8 chromatic better integration
-- Storybook-driven development
+- Component-driven development
