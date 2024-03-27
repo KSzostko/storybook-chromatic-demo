@@ -24,6 +24,7 @@ export const Contained: Story = {
   args: {
     variant: 'contained',
     children: 'Label',
+    color: "error"
   },
 };
 
