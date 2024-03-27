@@ -66,10 +66,10 @@ export const GridWithMultipleBreakpoints: Story = {
       <Grid item xs={6} md={4}>
         <Item>xs=6 md=4</Item>
       </Grid>
-      <Grid item xs={6} md={4}>
+      <Grid item xs={2} md={4}>
         <Item>xs=6 md=4</Item>
       </Grid>
-      <Grid item xs={6} md={8}>
+      <Grid item xs={2} md={8}>
         <Item>xs=6 md=8</Item>
       </Grid>
     </Grid>
