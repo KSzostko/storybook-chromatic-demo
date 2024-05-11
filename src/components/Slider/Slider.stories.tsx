@@ -19,6 +19,8 @@ export const Default: Story = {
     max: 20,
     step: 1,
     defaultValue: 6,
+    color: 'warning',
+    size: 'small',
   },
 };
 
